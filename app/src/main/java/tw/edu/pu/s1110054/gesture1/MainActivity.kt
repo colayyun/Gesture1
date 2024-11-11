@@ -184,6 +184,7 @@ fun Drag_Vertical() {
 
 @Composable
 fun Ghost(){
+
     Image(
         painter = painterResource(id = R.drawable.ghost1),
         contentDescription = "精靈",
