@@ -190,14 +190,12 @@ fun Ghost(){
         modifier = Modifier
             .offset{ IntOffset(800,200) }
     )
-
     Image(
         painter = painterResource(id = R.drawable.ghost2),
         contentDescription = "精靈",
         modifier = Modifier
             .offset{ IntOffset(500,300) }
     )
-
     Image(
         painter = painterResource(id = R.drawable.ghost3),
         contentDescription = "精靈",
